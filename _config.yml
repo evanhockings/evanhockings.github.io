@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Evan Hockings"
 title_separator          : "-"
-name                     : &name "Evan Hockings Name"
+name                     : &name "Evan Hockings"
 description              : &description "personal description"
 url                      : https://evanhockings.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
