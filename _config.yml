@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Evan Hockings"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Sydney, Australia"
+  avatar           : # "profile.png"
+  bio              : # ""
+  location         : # "Sydney, Australia"
   employer         :
   pubmed           : # ""
   googlescholar    : "https://scholar.google.com/citations?user=vDW1V_MAAAAJ"
