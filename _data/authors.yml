@@ -2,9 +2,9 @@
 
 Evan Hockings:
   name        : "Evan Hoockings"
-  uri         : "https://evanhockings.github.io"
+  # uri         : "https://evanhockings.github.io"
   # email       : "name@name.com"
-  bio         : "This is the first name."
+  bio         :
   # avatar      : "bio-photo-2.jpg"
   # twitter     : "name"
   # google_plus : "Name"

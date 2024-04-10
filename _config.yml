@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 title                    : "Evan Hockings"
 title_separator          : "-"
 name                     : &name "Evan Hockings"
 description              : # &description ""
 url                      : https://evanhockings.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "EvanHockings/evanhockings.github.io"
+repository               : "evanhockings/evanhockings.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Evan Hockings"
   avatar           : "profile.png"
-  bio              : # ""
-  location         : # "Sydney, Australia"
+  bio              :
+  location         : "Sydney, Australia"
   employer         :
-  pubmed           : # ""
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=vDW1V_MAAAAJ"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "EvanHockings"
+  github           : "https://github.com/evanhockings"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0002-5890-5705"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : # ""
+  twitter          : "https://twitter.com/evanhockings"
   vine             :
   weibo            :
   xing             :
@@ -200,7 +200,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
