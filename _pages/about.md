@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm Evan Hockings, a PhD student at The University of Sydney in the Quantum Theory Group advised by Andrew Doherty. My research focuses on scalable noise characterisation of quantum devices, particularly in the context of quantum error correction.
+I'm Evan Hockings, a PhD student at The University of Sydney in the Quantum Theory Group advised by Andrew Doherty. My research focuses on the scalable noise characterisation of quantum devices, particularly in the context of quantum error correction.
 
 ## Publications
 
-**E. T. Hockings**, A. C. Doherty, R. Harper. Scalable noise characterisation of syndrome extraction circuits with averaged circuit eigenvalue sampling. arXiv preprint, [arXiv:2404:00000](https://arxiv.org/abs/2404.00000).
+**E. T. Hockings**, A. C. Doherty, R. Harper. Scalable noise characterisation of syndrome extraction circuits with averaged circuit eigenvalue sampling. arXiv preprint (2024), [arXiv:2404:00000](https://arxiv.org/abs/2404.00000).
 
 Y. Li, R. P. Sabatini, S. K. K. Prasad, **E. T. Hockings**, T. W. Schmidt, G. Lakhwani. Improved optical confinement in ambipolar field-effect transistors toward electrical injection organic lasers. [Applied Physics Letters 119, 163303 (2021)](https://doi.org/10.1063/5.0063336).
 
