@@ -12,7 +12,7 @@ I'm Evan Hockings, a PhD student at The University of Sydney in the Quantum Theo
 
 ## Publications
 
-**E. T. Hockings**, A. C. Doherty, R. Harper. Scalable noise characterisation of syndrome extraction circuits with averaged circuit eigenvalue sampling. arXiv preprint (2024), [arXiv:2404:06545](https://arxiv.org/abs/2404.06545).
+**E. T. Hockings**, A. C. Doherty, R. Harper. Scalable noise characterisation of syndrome extraction circuits with averaged circuit eigenvalue sampling. arXiv preprint (2024), [arXiv:2404.06545](https://arxiv.org/abs/2404.06545).
 
 Y. Li, R. P. Sabatini, S. K. K. Prasad, **E. T. Hockings**, T. W. Schmidt, G. Lakhwani. Improved optical confinement in ambipolar field-effect transistors toward electrical injection organic lasers. [Applied Physics Letters 119, 163303 (2021)](https://doi.org/10.1063/5.0063336).
 
