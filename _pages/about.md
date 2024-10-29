@@ -13,7 +13,7 @@ My research currently focuses on scalably characterising noise in quantum device
 
 I believe science should be open-source where possible, and developed the software package [QuantumACES.jl](https://github.com/evanhockings/QuantumACES.jl) to make it easy to design scalable and performant noise characterisation experiments for quantum devices.
 
-I am also interested in mitigating the existential risks posed by artificial intelligence, particularly by interpreting the functioning of powerful AI systems.
+I'm also interested in mitigating the existential risks posed by artificial intelligence, particularly by interpreting the functioning of powerful AI systems.
 
 ## Publications
 
