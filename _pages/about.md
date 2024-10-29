@@ -10,6 +10,7 @@ redirect_from:
 
 I'm Evan Hockings, a PhD student at The University of Sydney advised by Andrew Doherty and Robin Harper.
 My research currently focuses on scalably characterising noise in quantum devices, particularly in the context of quantum error correction.
+
 I believe science should be open-source where possible, and developed the software package [QuantumACES.jl](https://github.com/evanhockings/QuantumACES.jl) to make it easy to design scalable and performant noise characterisation experiments for quantum devices.
 
 I am also interested in mitigating the existential risks posed by artificial intelligence, particularly by interpreting the functioning of powerful AI systems.
