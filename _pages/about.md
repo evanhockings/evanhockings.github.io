@@ -21,10 +21,6 @@ I'm also interested in mitigating the existential risks posed by artificial inte
 
 Y. Li, R. P. Sabatini, S. K. K. Prasad, **E. T. Hockings**, T. W. Schmidt, G. Lakhwani. Improved optical confinement in ambipolar field-effect transistors toward electrical injection organic lasers. [Applied Physics Letters 119, 163303, 2021](https://doi.org/10.1063/5.0063336).
 
-## Software
-
-[QuantumACES.jl](https://github.com/evanhockings/QuantumACES.jl).
-
 ## Other writing
 
 [The risks posed by artificial intelligence demand serious consideration](https://honisoit.com/2022/10/the-risks-posed-by-artificial-intelligence-demand-serious-consideration/) for Honi Soit, October 2022.
