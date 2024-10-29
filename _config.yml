@@ -80,42 +80,59 @@ analytics:
 
 # Site Author
 author:
-  name             : "Evan Hockings"
+  # Biographic information
   avatar           : "profile.png"
+  name             : "Evan Hockings"
+  pronouns         :
   bio              : "<em>ad astra</em>"
   location         : "Sydney, Australia"
   employer         :
-  pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=vDW1V_MAAAAJ"
-  email            :
-  researchgate     :
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "evanhockings"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      :
-  lastfm           :
-  linkedin         :
-  orcid            : "https://orcid.org/0000-0002-5890-5705"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    :
-  steam            :
-  tumblr           :
-  twitter          : "evanhockings"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  email            :
 
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=vDW1V_MAAAAJ"
+  impactstory      : # URL
+  orcid            : "https://orcid.org/0000-0002-5890-5705"
+  semantic         : # URL
+  pubmed           : # URL
+  researchgate     : # URL
+  scopus           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "evanhockings"
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : # Username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : "evanhockings"
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
 
 # Reading Files
 include:
