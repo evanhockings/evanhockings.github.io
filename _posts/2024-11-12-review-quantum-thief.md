@@ -20,10 +20,10 @@ The no-cloning theorem prevents the copying of the quantum information, exposing
 
 The titular quantum thief, Jean le Flambeur, begins the series in the Dilemma Prison, a Sobornost creation that aims to rehabilitate its inmates by forcing them to play out the classic prisoners' dilemma.
 Or, rather, the classical prisoners' dilemma.
-You see, this prison is a little ironic: Contrast the religious hatred of the Sobornost for quantum mechanics and 'quantum filth' with the [quantum prisoners' dilemma](https://arxiv.org/abs/quant-ph/9806088), which allows players to achieve a Pareto optimal Nash equilibrium by sharing quantum entanglement and employing a quantum strategy.
+You see, this prison is a little ironic: contrast the religious hatred of the Sobornost for quantum mechanics and 'quantum filth' with the [quantum prisoners' dilemma](https://arxiv.org/abs/quant-ph/9806088), where players that share quantum entanglement can employ a quantum strategy, rendering the Nash equilibrium Pareto optimal.
 Indeed, the Zoku utilise [quantum pseudo-telepathy](https://arxiv.org/abs/quant-ph/0408052) to enable arcane forms of faster-than-light _coordination_ throughout the series.
 In the realm of quantum information, there is no need for defection.
-Thus it is only natural that the All-Defector, which reminds me of worries about [demons in the Solomonoff prior](https://www.alignmentforum.org/posts/Tr7tAyt5zZpdTwTQK/the-solomonoff-prior-is-malign), emerges from the Sobornost's classical Dilemma prison. 
+Thus it is only natural that the All-Defector, which reminds me of worries about [demons in the Solomonoff prior](https://www.alignmentforum.org/posts/Tr7tAyt5zZpdTwTQK/the-solomonoff-prior-is-malign), emerges from the Sobornost's classical Dilemma Prison. 
 
 Throughout my PhD, I've spent rather more time reading about the singularity than I have on the arXiv reading about quantum information theory.
 These novels reward knowledge of both, and that makes them feel to me like home.
