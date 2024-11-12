@@ -5,7 +5,6 @@ permalink: /blog/review-quantum-thief/
 excerpt: 'Reviewing Hannu Rajaniemi's _Jean le Flambeur_ trilogy'
 tags:
   - blog
-  - review
 ---
 
 I don't often encounter the phrase 'quantum process tomography' in a fiction book.
