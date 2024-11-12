@@ -1,8 +1,8 @@
 ---
-title: 'Review of _The Quantum Thief_'
+title: 'Review of The Quantum Thief'
 date: 2024-11-11
 permalink: /blog/review-quantum-thief/
-excerpt: 'Reviewing Hannu Rajaniemi\'s _Jean le Flambeur_ trilogy'
+excerpt: 'Reviewing Hannu Rajaniemi Jean le Flambeur trilogy'
 tags:
   - blog
 ---
