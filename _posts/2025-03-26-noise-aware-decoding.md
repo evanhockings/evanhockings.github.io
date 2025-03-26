@@ -1,5 +1,5 @@
 ---
-title: 'Improving error suppression with noise-aware decoding'
+title: Improving error suppression with noise-aware decoding
 date: 2025-03-26
 permalink: /blog/noise-aware-decoding/
 excerpt: >-
@@ -7,7 +7,7 @@ excerpt: >-
 
 ---
 
-I recently gave a talk to my group on my paper 'Improving error suppression with noise-aware decoding' [arXiv:2502.21044](https://arxiv.org/abs/2502.21044).
+I recently gave a talk to my group on my paper 'Improving error suppression with noise-aware decoding', [arXiv:2502.21044](https://arxiv.org/abs/2502.21044).
 As I had the full hour for the talk, I included an idiosyncratic introduction to stabiliser quantum error correction through the lens of symplectic vector spaces.
 It was a good excuse to learn how to use Beamer!
 

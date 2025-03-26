@@ -1,5 +1,5 @@
 ---
-title: 'Review of The Quantum Thief'
+title: Review of The Quantum Thief
 date: 2024-11-12
 permalink: /blog/review-quantum-thief/
 excerpt: >-
