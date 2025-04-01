@@ -19,6 +19,8 @@ I'm also interested in mitigating the existential risks posed by artificial inte
 
 **E. T. Hockings**, A. C. Doherty, R. Harper. Improving error suppression with noise-aware decoding. arXiv preprint, 2025. [arXiv:2502.21044](https://arxiv.org/abs/2502.21044).
 
+**E.T. Hockings**. QuantumACES.jl: design noise characterisation experiments for quantum computers. [Journal of Open Source Software, 10(107), 7707, 2025](https://doi.org/10.21105/joss.07707).
+
 **E. T. Hockings**, A. C. Doherty, R. Harper. Scalable noise characterisation of syndrome extraction circuits with averaged circuit eigenvalue sampling. [PRX Quantum 6, 010334, 2025](https://doi.org/10.1103/PRXQuantum.6.010334). [arXiv:2404.06545](https://arxiv.org/abs/2404.06545).
 
 Y. Li, R. P. Sabatini, S. K. K. Prasad, **E. T. Hockings**, T. W. Schmidt, G. Lakhwani. Improved optical confinement in ambipolar field-effect transistors toward electrical injection organic lasers. [Applied Physics Letters 119, 163303, 2021](https://doi.org/10.1063/5.0063336).
