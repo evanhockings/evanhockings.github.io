@@ -17,6 +17,8 @@ I'm also interested in mitigating the existential risks posed by artificial inte
 
 ## Publications
 
+R. Harper, C. Lainé, **E. T. Hockings**, C. McLauchlan, G. M. Nixon, B. J. Brown, S. D. Bartlett. Characterising the failure mechanisms of error-corrected quantum logic gates. arXiv preprint, 2025. [arXiv:2504.07258](https://arxiv.org/abs/2504.07258).
+
 **E. T. Hockings**, A. C. Doherty, R. Harper. Improving error suppression with noise-aware decoding. arXiv preprint, 2025. [arXiv:2502.21044](https://arxiv.org/abs/2502.21044).
 
 **E. T. Hockings**. QuantumACES.jl: design noise characterisation experiments for quantum computers. [Journal of Open Source Software 10, 107, 7707, 2025](https://doi.org/10.21105/joss.07707).
