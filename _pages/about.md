@@ -14,7 +14,7 @@ I am principally interested in mitigating the existential risks posed by artific
 
 During my PhD in the Quantum Theory Group at the University of Sydney, advised by Andrew Doherty and Robin Harper, I worked on characterising noise in quantum computers.
 In particular, I focused on scalable noise characterisation methods for quantum error correction.
-I believe science should be open-source wherever possible, and developed the open-source Julia package [QuantumACES.jl](https://github.com/evanhockings/QuantumACES.jl) to make it easy to design, simulate, and implement noise characterisation experiments for quantum computers.
+I believe science should be open-source wherever possible, and developed [QuantumACES.jl](https://github.com/evanhockings/QuantumACES.jl) to make it easy to design, simulate, and implement noise characterisation experiments for quantum computers.
 
 ## Publications
 
