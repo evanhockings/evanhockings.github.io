@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm Evan Hockings, a PhD student at The University of Sydney advised by Andrew Doherty and Robin Harper.
-My research currently focuses on scalably characterising noise in quantum devices, particularly in the context of quantum error correction.
+I'm Evan Hockings, a Member of Technical Staff at [Iceberg Quantum](https://www.iceberg-quantum.com/).
 
-I believe science should be open-source where possible, and developed the software package [QuantumACES.jl](https://github.com/evanhockings/QuantumACES.jl) to make it easy to design scalable and performant noise characterisation experiments for quantum devices.
+I am principally interested in mitigating the existential risks posed by artificial intelligence.
 
-I'm also interested in mitigating the existential risks posed by artificial intelligence, particularly by interpreting the functioning of powerful AI systems.
+During my PhD in the Quantum Theory Group at the University of Sydney, advised by Andrew Doherty and Robin Harper, I worked on characterising noise in quantum computers.
+In particular, I focused on scalable noise characterisation methods for quantum error correction.
+I believe science should be open-source wherever possible, and developed the open-source Julia package [QuantumACES.jl](https://github.com/evanhockings/QuantumACES.jl) to make it easy to design, simulate, and implement noise characterisation experiments for quantum computers.
 
 ## Publications
 
