@@ -1,0 +1,16 @@
+---
+import { cite, type Publication } from '../data/cv';
+
+interface Props {
+  pub: Publication;
+}
+
+const { pub } = Astro.props;
+const html = cite(pub, {
+  text: (s) => s,
+  bold: (s) => `<strong>${s}</strong>`,
+  link: (href, s) => `<a href="${href}">${s}</a>`,
+});
+---
+
+<li set:html={html} />

@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import Entry from '../components/Entry.astro';
+import Publication from '../components/Publication.astro';
+import { positions, education, experience, awards, publications, writing } from '../data/cv';
+
+// Sections marked `open` are unfolded when the page loads.
+const sections = [
+  { title: 'Positions', entries: positions, open: true },
+  { title: 'Education', entries: education, open: true },
+  { title: 'Other experience', entries: experience },
+  { title: 'Awards and honours', entries: awards, plain: true },
+  { title: 'Publications', publications },
+  { title: 'Popular writing', entries: writing },
+];
+---
+
+<Base title="CV" description="Curriculum vitae of Evan Hockings.">
+  <h1>Curriculum vitae</h1>
+  <p class="cv-pdfs">PDF: <a href="/files/cv.pdf">CV</a> · <a href="/files/resume.pdf">resume</a></p>
+
+  {
+    sections.map((section) => (
+      <details class="cv-section" open={section.open}>
+        <summary><h2>{section.title}</h2></summary>
+        {section.publications ? (
+          <ol class="publications">
+            {section.publications.map((pub) => <Publication pub={pub} />)}
+          </ol>
+        ) : (
+          <ul class="entries">
+            {section.entries.map((entry) => <Entry entry={entry} plain={section.plain} />)}
+          </ul>
+        )}
+      </details>
+    ))
+  }
+</Base>

@@ -1,0 +1,28 @@
+---
+import type { Entry } from '../data/cv';
+
+interface Props {
+  entry: Entry;
+  plain?: boolean; // title not bolded
+}
+
+const { entry, plain } = Astro.props;
+// The first note shares a line with the place, as in the PDFs.
+const [note, ...notes] = entry.notes ?? [];
+---
+
+<li class:list={['entry', { plain }]}>
+  <span class="entry-line">
+    <span class="entry-title">{entry.href ? <a href={entry.href}>{entry.title}</a> : entry.title}</span>
+    <span class="entry-when">{entry.when}</span>
+  </span>
+  {
+    (note || entry.where) && (
+      <span class="entry-line">
+        <span class="entry-note">{note}</span>
+        {entry.where && <span class="entry-where">{entry.where}</span>}
+      </span>
+    )
+  }
+  {notes.map((n) => <span class="entry-note">{n}</span>)}
+</li>

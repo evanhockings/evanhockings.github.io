@@ -1,0 +1,384 @@
+@font-face {
+  font-family: Erewhon;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Erewhon-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Erewhon;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Erewhon-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Erewhon;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Erewhon-Bold.woff2") format("woff2");
+}
+
+/* Colours are light-dark(light, dark) pairs. Which one applies follows the
+   system theme unless the toggle in the header has set data-theme. */
+:root {
+  color-scheme: light dark;
+  --bg: light-dark(#fffefb, #161614);
+  --fg: light-dark(#1c1c1a, #e6e4de);
+  --muted: light-dark(#6b6a66, #9a9890);
+  --rule: light-dark(#e4e2dc, #2c2c29);
+  --link: var(--fg);
+  --link-underline: light-dark(#b8b5ad, #5c5a54);
+  --accent: light-dark(#8a3b12, #e0946b);
+  --font-body: Erewhon, Charter, "Bitstream Charter", "Sitka Text", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+  --measure: 38rem;
+  --indent: 1.5rem; /* lists and indented CV notes */
+}
+
+/* Browsers without light-dark() (before mid-2024) get the light palette. */
+@supports not (color: light-dark(#000, #fff)) {
+  :root {
+    --bg: #fffefb;
+    --fg: #1c1c1a;
+    --muted: #6b6a66;
+    --rule: #e4e2dc;
+    --link-underline: #b8b5ad;
+    --accent: #8a3b12;
+  }
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-feature-settings: "kern", "liga", "onum";
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Header */
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2.5rem 0 2rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+  color: var(--fg);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--fg);
+}
+
+.theme-toggle {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--fg);
+}
+
+/* Main */
+
+main {
+  padding-bottom: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 1.25rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2.5rem 0 0.875rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1.75rem 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1.125rem;
+  text-align: justify;
+  hyphens: auto;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: 0.16em;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  text-decoration-color: var(--accent);
+}
+
+em {
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+blockquote {
+  margin: 1.25rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  line-height: 1.45;
+}
+
+pre code {
+  font-size: 0.875rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  padding-left: var(--indent);
+  margin: 0 0 1.125rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+/* Publications */
+
+.publications {
+  margin: 0;
+}
+
+.publications li {
+  margin-bottom: 0.75rem;
+}
+
+/* CV */
+
+.cv-pdfs {
+  color: var(--muted);
+}
+
+.cv-section summary {
+  cursor: pointer;
+  margin-top: 2.5rem;
+}
+
+.cv-section summary h2 {
+  display: inline;
+  margin: 0;
+}
+
+.cv-section[open] summary {
+  margin-bottom: 0.875rem;
+}
+
+.entries {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.entry {
+  margin-bottom: 0.75rem;
+}
+
+/* Titles wrap beside their dates; a place too long for its line drops below it. */
+.entry-line {
+  display: flex;
+  gap: 0 1rem;
+}
+
+.entry-line > :first-child {
+  flex: 1 1 auto;
+}
+
+.entry-line:has(.entry-where) {
+  flex-wrap: wrap;
+}
+
+.entry-when {
+  flex-shrink: 0;
+}
+
+.entry-where {
+  margin-left: auto;
+}
+
+.entry-title {
+  font-weight: 700;
+}
+
+.entry.plain .entry-title {
+  font-weight: 400;
+}
+
+.entry-when,
+.entry-where {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.entry-note {
+  display: block;
+  white-space: pre-wrap; /* keeps an indenting tab */
+  tab-size: var(--indent);
+}
+
+/* Post list */
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-list time {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+@media (max-width: 30rem) {
+  .post-list li {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 1rem;
+  }
+
+  .post-list time {
+    text-align: left;
+  }
+}
+
+/* Post */
+
+.post-header {
+  margin-bottom: 1.75rem;
+}
+
+.post-header h1 {
+  margin-bottom: 0.375rem;
+}
+
+.post-header time {
+  color: var(--muted);
+}
+
+/* Footer */
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  padding: 1.5rem 0 2.5rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.site-footer a {
+  color: var(--muted);
+}
+
+.site-footer a:hover {
+  color: var(--fg);
+}
